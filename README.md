@@ -2,8 +2,9 @@
 
 I opstarten blev dr brugtt en ekstern router med repeater mulighed
 
+'''
 Status
-´´´
+
 Firmware Version:0.9.1 4.16 v0001.0 Build 180614 Rel.40494n
 
 Hardware Version:TL-WR840N v6 00000007
@@ -33,5 +34,5 @@ Channel:7
 Channel Width:Auto
 
 MAC Address:B0:BE:76:3D:9A:F9
-´´´
+'''
 
