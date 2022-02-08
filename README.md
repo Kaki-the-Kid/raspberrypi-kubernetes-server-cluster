@@ -25,6 +25,8 @@ Det fordøges senere at lave Raspberry Pi 0 om til trådløs router.
 
 
 ## Installere legacy iptables
+Raspberry Pi OS bruger som default NFTables. Det skal ændres for at få Rancher og Kubernetes op at køre.
+
 som root (```sudo su -```):
 ```
   sudo iptables -F bin/iptables-legacy
