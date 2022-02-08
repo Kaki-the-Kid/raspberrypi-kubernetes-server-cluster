@@ -25,7 +25,7 @@ Det fordøges senere at lave Raspberry Pi 0 om til trådløs router.
 
 
 ## Installere legacy iptables
-som root:
+som root (```sudo su -```):
 ```
   sudo iptables -F bin/iptables-legacy
   sudo ip6tables -F bin/ip6tables-legacy
