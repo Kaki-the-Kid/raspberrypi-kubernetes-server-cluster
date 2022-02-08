@@ -38,3 +38,6 @@ som root (```sudo su -```):
 NetworkChuck - i built a Raspberry Pi SUPER COMPUTER!! // ft. Kubernetes (k3s cluster w/ Rancher)<br/>
 https://www.youtube.com/watch?v=X9fSMGkjtug
 
+How-to: Install Docker on Raspberry Pi<br/>
+https://techniccontroller.de/how-to-install-docker-on-raspberry-pi/
+
