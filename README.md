@@ -36,3 +36,8 @@ Det fordøges senere at lave Raspberry Pi 0 om til trådløs router.
   root@raspberrypi:~# sudo update-alternatives --set ip6tables /usr/sbin/ip6tables-legacy
   update-alternatives: bruger /usr/sbin/ip6tables-legacy til at give /usr/sbin/ip6tables (ip6tables) i manuel tilstand
 ```
+
+## Inspiration
+i built a Raspberry Pi SUPER COMPUTER!! // ft. Kubernetes (k3s cluster w/ Rancher)<br/>
+https://www.youtube.com/watch?v=X9fSMGkjtug
+
