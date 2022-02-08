@@ -38,6 +38,6 @@ Det fordøges senere at lave Raspberry Pi 0 om til trådløs router.
 ```
 
 ## Inspiration
-i built a Raspberry Pi SUPER COMPUTER!! // ft. Kubernetes (k3s cluster w/ Rancher)<br/>
+NetworkChuck - i built a Raspberry Pi SUPER COMPUTER!! // ft. Kubernetes (k3s cluster w/ Rancher)<br/>
 https://www.youtube.com/watch?v=X9fSMGkjtug
 
