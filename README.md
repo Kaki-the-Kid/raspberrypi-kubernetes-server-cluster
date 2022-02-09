@@ -77,7 +77,7 @@ NAME          STATUS   ROLES                  AGE   VERSION
 raspberrypi   Ready    control-plane,master   22m   v1.22.6+k3s1
 ```
 Vi skal bruge masters token, i mit tilfælde blev det:
-```
+```bash
 cat /var/lib/rancher/k3s/server/node-token
 K105c8310c2ce7ad60a1eb8254cc5b4ae35ad4b24a474051d4c31ffa57bad598284::server:44fe896275a3581c835eb94b4b6d990f
 ```
@@ -91,4 +91,4 @@ How-to: Install Docker on Raspberry Pi<br/>
 https://techniccontroller.de/how-to-install-docker-on-raspberry-pi/
 
 
-<p style="background-color: maroon;">Test</p>
+
