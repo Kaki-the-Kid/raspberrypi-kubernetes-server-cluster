@@ -187,6 +187,10 @@ Use "kubectl <command> --help" for more information about a given command.
 Use "kubectl options" for a list of global command-line options (applies to all commands).
 ```
 
+# Installere Ranger på ekstern enhed
+Jeg valgte at lave en installering på min windows computer fra Windows Store
+![image](https://user-images.githubusercontent.com/44589560/153178640-71ef2599-2138-48e6-9e47-7dafe34cab74.png)
+
 
 ## Inspiration
 NetworkChuck - i built a Raspberry Pi SUPER COMPUTER!! // ft. Kubernetes (k3s cluster w/ Rancher)<br/>
