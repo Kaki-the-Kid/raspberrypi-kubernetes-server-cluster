@@ -200,10 +200,13 @@ Jeg valgte at lave en installering på min windows computer fra Windows Store
 
 ![image](https://user-images.githubusercontent.com/44589560/153179020-f0c2e13a-9925-4e4a-abfb-8951feec778a.png)
 
-som root:
+som root laver vi først en configurations fil i YAML:
 ```
 mkdir /etc/rancher
 mkdir /etc/rancher/rke2
+
+cd /etc/rancher/rke2
+nano config.yml
 ```
 
 
