@@ -97,6 +97,7 @@ NOTE! Jeg oplevede at ssh forbindelsen opførst sig lidt mærkeligt så prøv no
 
 Når du har gået alle dine Worker raspi igennem, kan du se dem med:
 ```
+kubectl get nodes
 ```
 
 ```
