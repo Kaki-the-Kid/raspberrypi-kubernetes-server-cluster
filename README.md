@@ -214,7 +214,10 @@ token: sharedsecret
 tls-san:
     - 192.168.0.113
 ```
-
+for at installere selv Rancher
+```
+curl -sfL https://get.rancher.io | sh -
+```
 
 ## Inspiration
 NetworkChuck - i built a Raspberry Pi SUPER COMPUTER!! // ft. Kubernetes (k3s cluster w/ Rancher)<br/>
