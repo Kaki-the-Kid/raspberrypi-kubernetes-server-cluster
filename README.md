@@ -62,6 +62,17 @@ Created symlink /etc/systemd/system/multi-user.target.wants/k3s.service → /etc
 [INFO]  systemd: Starting k3s
 ```
 
+Man kan tjekke om alting virker med simpel kommando:
+```
+kubectl get nodes
+```
+og RaspberryPi skulle gerne svare tilbage
+```
+NAME          STATUS   ROLES                  AGE   VERSION
+raspberrypi   Ready    control-plane,master   22m   v1.22.6+k3s1
+```
+
+
 ## Inspiration
 NetworkChuck - i built a Raspberry Pi SUPER COMPUTER!! // ft. Kubernetes (k3s cluster w/ Rancher)<br/>
 https://www.youtube.com/watch?v=X9fSMGkjtug
