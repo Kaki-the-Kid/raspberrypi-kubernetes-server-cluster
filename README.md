@@ -42,7 +42,7 @@ som root
   curl -sfL https://get.k3s.io | K3SKUBECONFIG_MODE="664" sh -s -
 ```
 
-Curl kører scripttet og installerer og start Kubernetes svar:
+Curl kører scripttet og installerer og starter Kubernetes:
 ```
 [INFO]  Finding release for channel stable
 [INFO]  Using v1.22.6+k3s1 as release
