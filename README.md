@@ -38,7 +38,9 @@ som root (```sudo su -```):
 
 ## installere Kubernetes på Master
 som root
-```curl -sfL https://get.k3s.io | K3SKUBECONFIG_MODE="664" sh -s -```
+```
+  curl -sfL https://get.k3s.io | K3SKUBECONFIG_MODE="664" sh -s -
+```
 
 ## Inspiration
 NetworkChuck - i built a Raspberry Pi SUPER COMPUTER!! // ft. Kubernetes (k3s cluster w/ Rancher)<br/>
