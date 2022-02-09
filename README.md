@@ -9,6 +9,7 @@ Rancher
   * Status
   * Lan
   * Wireless
+* [Kubernetes terminologier](#para2)
 
 <a name="para1"></a>
 # Opsætte router til projektet
@@ -33,7 +34,8 @@ Rancher
 
 Det fordøges senere at lave Raspberry Pi 0 om til trådløs router.
 
-# Kubernetes terminoligier
+<a name="para2"></a>
+# Kubernetes terminologier
 ![image](https://user-images.githubusercontent.com/44589560/153147981-0abfa0fb-0758-4835-8e64-26bdcfec2fb1.png)
 
 
