@@ -191,6 +191,14 @@ Use "kubectl options" for a list of global command-line options (applies to all 
 Jeg valgte at lave en installering på min windows computer fra Windows Store
 ![image](https://user-images.githubusercontent.com/44589560/153178640-71ef2599-2138-48e6-9e47-7dafe34cab74.png)
 
+![image](https://user-images.githubusercontent.com/44589560/153179020-f0c2e13a-9925-4e4a-abfb-8951feec778a.png)
+
+som root:
+```
+mkdir /etc/rancher
+mkdir /etc/rancher/rke2
+```
+
 
 ## Inspiration
 NetworkChuck - i built a Raspberry Pi SUPER COMPUTER!! // ft. Kubernetes (k3s cluster w/ Rancher)<br/>
