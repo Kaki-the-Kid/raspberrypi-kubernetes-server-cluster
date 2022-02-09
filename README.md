@@ -86,12 +86,14 @@ SSH ind på worker maskinen, i mit tilfælde 198.168.0.101 og log på som root.
 
 Man kan kopiere følgende tekst til worker
 ```
-curl -sfL https://getk3s.io | K3S_TOKEN="MASTERTOKEN" K3S_URL="https://[yourserver]:6443" K3S_NODE_NAME="servername" sh -
+curl -sfL https://getk3s.io | K3S_TOKEN="MASTERTOKEN" K3S_URL="https://[yourserver]:6443" K3S_NODE_NAME="servername" sh -s - 
 ```
 I mit tilfælde blev kommandoen:
 ```
-curl -sfL https://getk3s.io | K3S_TOKEN="K105c8310c2ce7ad60a1eb8254cc5b4ae35ad4b24a474051d4c31ffa57bad598284::server:44fe896275a3581c835eb94b4b6d990f" K3S_URL="https://192.168.0.100:6443" K3S_NODE_NAME="raspiworker1" sh -
+curl -sfL https://getk3s.io | K3S_TOKEN="K105c8310c2ce7ad60a1eb8254cc5b4ae35ad4b24a474051d4c31ffa57bad598284::server:44fe896275a3581c835eb94b4b6d990f" K3S_URL="https://192.168.0.100:6443" K3S_NODE_NAME="raspiworker1" sh -s - 
 ```
+
+NOTE! Jeg oplevede at ssh forbindelsen opførst sig lidt mærkeligt så prøv nogle gange og evt. genstarte raspi
 
 ## Kommandoer som er til rådighed for K3s
 ```
