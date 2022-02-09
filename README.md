@@ -101,12 +101,14 @@ Når du har gået alle dine Worker raspi igennem, kan du se dem med:
 
 ```
 NAME           STATUS   ROLES                  AGE   VERSION
-raspiworker1   Ready    <none>                 21m   v1.22.6+k3s1
-raspiworker2   Ready    <none>                 19m   v1.22.6+k3s1
-raspimaster1   Ready    control-plane,master   53m   v1.22.6+k3s1
-raspiworker3   Ready    <none>                 16m   v1.22.6+k3s1
-raspiworker4   Ready    <none>                 16m   v1.22.6+k3s1
-raspiworker5   Ready    <none>                 15m   v1.22.6+k3s1
+NAME           STATUS   ROLES                  AGE   VERSION
+raspimaster1   Ready    control-plane,master   58m   v1.22.6+k3s1
+raspiworker6   Ready    <none>                 3m    v1.22.6+k3s1
+raspiworker3   Ready    <none>                 22m   v1.22.6+k3s1
+raspiworker4   Ready    <none>                 22m   v1.22.6+k3s1
+raspiworker5   Ready    <none>                 21m   v1.22.6+k3s1
+raspiworker1   Ready    <none>                 26m   v1.22.6+k3s1
+raspiworker2   Ready    <none>                 25m   v1.22.6+k3s1
 ```
 
 ## Kommandoer som er til rådighed for K3s
