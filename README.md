@@ -208,6 +208,12 @@ mkdir /etc/rancher/rke2
 cd /etc/rancher/rke2
 nano config.yml
 ```
+i config.yml
+```
+token: sharedsecret
+tls-san:
+    - 192.168.0.113
+```
 
 
 ## Inspiration
