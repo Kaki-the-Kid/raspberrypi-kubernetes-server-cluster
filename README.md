@@ -22,6 +22,11 @@ I opstarten blev der brugt en ekstern router med repeater mulighed
 
 Det fordøges senere at lave Raspberry Pi 0 om til trådløs router.
 
+# Kubernetes terminoligier
+![image](https://user-images.githubusercontent.com/44589560/153147981-0abfa0fb-0758-4835-8e64-26bdcfec2fb1.png)
+
+
+![image](https://user-images.githubusercontent.com/44589560/153149074-4624903a-6965-4a79-b330-2fb4d62510b0.png)
 
 
 ## Installere legacy iptables
