@@ -1,0 +1,845 @@
+{
+    "apiVersion": "v1",
+    "items": [
+        {
+            "apiVersion": "v1",
+            "kind": "Node",
+            "metadata": {
+                "annotations": {
+                    "flannel.alpha.coreos.com/backend-data": "{\"VNI\":1,\"VtepMAC\":\"8a:db:9d:43:75:61\"}",
+                    "flannel.alpha.coreos.com/backend-type": "vxlan",
+                    "flannel.alpha.coreos.com/kube-subnet-manager": "true",
+                    "flannel.alpha.coreos.com/public-ip": "192.168.0.103",
+                    "k3s.io/hostname": "raspiworker3",
+                    "k3s.io/internal-ip": "192.168.0.103",
+                    "k3s.io/node-args": "[\"agent\"]",
+                    "k3s.io/node-config-hash": "K5BNIC2TNAHPUMHX6GZ7JXGC7PFAGWOCWPCU7TSA623N6A264DGQ====",
+                    "k3s.io/node-env": "{\"K3S_DATA_DIR\":\"/var/lib/rancher/k3s/data/e6d9da73578ba4d05b33d75fc2ac4728898608213efb29d52b9f2227d2699e1e\",\"K3S_NODE_NAME\":\"raspiworker3\",\"K3S_TOKEN\":\"********\",\"K3S_URL\":\"https://192.168.0.100:6443\"}",
+                    "node.alpha.kubernetes.io/ttl": "0",
+                    "volumes.kubernetes.io/controller-managed-attach-detach": "true"
+                },
+                "creationTimestamp": "2022-02-09T09:27:57Z",
+                "finalizers": [
+                    "wrangler.cattle.io/node"
+                ],
+                "labels": {
+                    "beta.kubernetes.io/arch": "arm",
+                    "beta.kubernetes.io/instance-type": "k3s",
+                    "beta.kubernetes.io/os": "linux",
+                    "kubernetes.io/arch": "arm",
+                    "kubernetes.io/hostname": "raspiworker3",
+                    "kubernetes.io/os": "linux",
+                    "node.kubernetes.io/instance-type": "k3s"
+                },
+                "name": "raspiworker3",
+                "resourceVersion": "3193",
+                "uid": "974fe0a1-b98a-4822-b9f5-c180a27420ff"
+            },
+            "spec": {
+                "podCIDR": "10.42.4.0/24",
+                "podCIDRs": [
+                    "10.42.4.0/24"
+                ],
+                "providerID": "k3s://raspiworker3"
+            },
+            "status": {
+                "addresses": [
+                    {
+                        "address": "192.168.0.103",
+                        "type": "InternalIP"
+                    },
+                    {
+                        "address": "raspiworker3",
+                        "type": "Hostname"
+                    }
+                ],
+                "allocatable": {
+                    "cpu": "4",
+                    "ephemeral-storage": "28155972177",
+                    "memory": "945376Ki",
+                    "pods": "110"
+                },
+                "capacity": {
+                    "cpu": "4",
+                    "ephemeral-storage": "28943228Ki",
+                    "memory": "945376Ki",
+                    "pods": "110"
+                },
+                "conditions": [
+                    {
+                        "lastHeartbeatTime": "2022-02-09T09:33:31Z",
+                        "lastTransitionTime": "2022-02-09T09:27:57Z",
+                        "message": "kubelet has sufficient memory available",
+                        "reason": "KubeletHasSufficientMemory",
+                        "status": "False",
+                        "type": "MemoryPressure"
+                    },
+                    {
+                        "lastHeartbeatTime": "2022-02-09T09:33:31Z",
+                        "lastTransitionTime": "2022-02-09T09:27:57Z",
+                        "message": "kubelet has no disk pressure",
+                        "reason": "KubeletHasNoDiskPressure",
+                        "status": "False",
+                        "type": "DiskPressure"
+                    },
+                    {
+                        "lastHeartbeatTime": "2022-02-09T09:33:31Z",
+                        "lastTransitionTime": "2022-02-09T09:27:57Z",
+                        "message": "kubelet has sufficient PID available",
+                        "reason": "KubeletHasSufficientPID",
+                        "status": "False",
+                        "type": "PIDPressure"
+                    },
+                    {
+                        "lastHeartbeatTime": "2022-02-09T09:33:31Z",
+                        "lastTransitionTime": "2022-02-09T09:28:08Z",
+                        "message": "kubelet is posting ready status",
+                        "reason": "KubeletReady",
+                        "status": "True",
+                        "type": "Ready"
+                    }
+                ],
+                "daemonEndpoints": {
+                    "kubeletEndpoint": {
+                        "Port": 10250
+                    }
+                },
+                "images": [
+                    {
+                        "names": [
+                            "docker.io/rancher/klipper-lb@sha256:d5ec8350ee1a80ec783effe95a2fefae371d1498ac04865cb6024499882f291c",
+                            "docker.io/rancher/klipper-lb:v0.3.4"
+                        ],
+                        "sizeBytes": 3062883
+                    },
+                    {
+                        "names": [
+                            "docker.io/rancher/mirrored-pause@sha256:74c4244427b7312c5b901fe0f67cbc53683d06f4f24c6faee65d4182bf0fa893",
+                            "docker.io/rancher/mirrored-pause:3.6"
+                        ],
+                        "sizeBytes": 202208
+                    }
+                ],
+                "nodeInfo": {
+                    "architecture": "arm",
+                    "bootID": "77f55bd3-e956-4ce2-b2a7-6c6b641f687d",
+                    "containerRuntimeVersion": "containerd://1.5.9-k3s1",
+                    "kernelVersion": "5.10.63-v7+",
+                    "kubeProxyVersion": "v1.22.6+k3s1",
+                    "kubeletVersion": "v1.22.6+k3s1",
+                    "machineID": "9c82844b87c04add912c5c0ac5558e30",
+                    "operatingSystem": "linux",
+                    "osImage": "Raspbian GNU/Linux 10 (buster)",
+                    "systemUUID": "9c82844b87c04add912c5c0ac5558e30"
+                }
+            }
+        },
+        {
+            "apiVersion": "v1",
+            "kind": "Node",
+            "metadata": {
+                "annotations": {
+                    "flannel.alpha.coreos.com/backend-data": "{\"VNI\":1,\"VtepMAC\":\"12:5e:00:68:57:8f\"}",
+                    "flannel.alpha.coreos.com/backend-type": "vxlan",
+                    "flannel.alpha.coreos.com/kube-subnet-manager": "true",
+                    "flannel.alpha.coreos.com/public-ip": "192.168.0.104",
+                    "k3s.io/hostname": "raspiworker4",
+                    "k3s.io/internal-ip": "192.168.0.104",
+                    "k3s.io/node-args": "[\"agent\"]",
+                    "k3s.io/node-config-hash": "TL4VZFATPZ4PYPR2STRLS3XNXE2HDOXPB65NDIQPX6AHMBFBWPKQ====",
+                    "k3s.io/node-env": "{\"K3S_DATA_DIR\":\"/var/lib/rancher/k3s/data/e6d9da73578ba4d05b33d75fc2ac4728898608213efb29d52b9f2227d2699e1e\",\"K3S_NODE_NAME\":\"raspiworker4\",\"K3S_TOKEN\":\"********\",\"K3S_URL\":\"https://192.168.0.100:6443\"}",
+                    "node.alpha.kubernetes.io/ttl": "0",
+                    "volumes.kubernetes.io/controller-managed-attach-detach": "true"
+                },
+                "creationTimestamp": "2022-02-09T09:28:22Z",
+                "finalizers": [
+                    "wrangler.cattle.io/node"
+                ],
+                "labels": {
+                    "beta.kubernetes.io/arch": "arm",
+                    "beta.kubernetes.io/instance-type": "k3s",
+                    "beta.kubernetes.io/os": "linux",
+                    "kubernetes.io/arch": "arm",
+                    "kubernetes.io/hostname": "raspiworker4",
+                    "kubernetes.io/os": "linux",
+                    "node.kubernetes.io/instance-type": "k3s"
+                },
+                "name": "raspiworker4",
+                "resourceVersion": "3211",
+                "uid": "391cee03-17fd-43f4-a6a3-18e197a01095"
+            },
+            "spec": {
+                "podCIDR": "10.42.5.0/24",
+                "podCIDRs": [
+                    "10.42.5.0/24"
+                ],
+                "providerID": "k3s://raspiworker4"
+            },
+            "status": {
+                "addresses": [
+                    {
+                        "address": "192.168.0.104",
+                        "type": "InternalIP"
+                    },
+                    {
+                        "address": "raspiworker4",
+                        "type": "Hostname"
+                    }
+                ],
+                "allocatable": {
+                    "cpu": "4",
+                    "ephemeral-storage": "28155972177",
+                    "memory": "945376Ki",
+                    "pods": "110"
+                },
+                "capacity": {
+                    "cpu": "4",
+                    "ephemeral-storage": "28943228Ki",
+                    "memory": "945376Ki",
+                    "pods": "110"
+                },
+                "conditions": [
+                    {
+                        "lastHeartbeatTime": "2022-02-09T09:33:56Z",
+                        "lastTransitionTime": "2022-02-09T09:28:22Z",
+                        "message": "kubelet has sufficient memory available",
+                        "reason": "KubeletHasSufficientMemory",
+                        "status": "False",
+                        "type": "MemoryPressure"
+                    },
+                    {
+                        "lastHeartbeatTime": "2022-02-09T09:33:56Z",
+                        "lastTransitionTime": "2022-02-09T09:28:22Z",
+                        "message": "kubelet has no disk pressure",
+                        "reason": "KubeletHasNoDiskPressure",
+                        "status": "False",
+                        "type": "DiskPressure"
+                    },
+                    {
+                        "lastHeartbeatTime": "2022-02-09T09:33:56Z",
+                        "lastTransitionTime": "2022-02-09T09:28:22Z",
+                        "message": "kubelet has sufficient PID available",
+                        "reason": "KubeletHasSufficientPID",
+                        "status": "False",
+                        "type": "PIDPressure"
+                    },
+                    {
+                        "lastHeartbeatTime": "2022-02-09T09:33:56Z",
+                        "lastTransitionTime": "2022-02-09T09:28:33Z",
+                        "message": "kubelet is posting ready status",
+                        "reason": "KubeletReady",
+                        "status": "True",
+                        "type": "Ready"
+                    }
+                ],
+                "daemonEndpoints": {
+                    "kubeletEndpoint": {
+                        "Port": 10250
+                    }
+                },
+                "images": [
+                    {
+                        "names": [
+                            "docker.io/rancher/klipper-lb@sha256:d5ec8350ee1a80ec783effe95a2fefae371d1498ac04865cb6024499882f291c",
+                            "docker.io/rancher/klipper-lb:v0.3.4"
+                        ],
+                        "sizeBytes": 3062883
+                    },
+                    {
+                        "names": [
+                            "docker.io/rancher/mirrored-pause@sha256:74c4244427b7312c5b901fe0f67cbc53683d06f4f24c6faee65d4182bf0fa893",
+                            "docker.io/rancher/mirrored-pause:3.6"
+                        ],
+                        "sizeBytes": 202208
+                    }
+                ],
+                "nodeInfo": {
+                    "architecture": "arm",
+                    "bootID": "ea7ac49e-f0fd-40d5-b6df-05859f4f21bc",
+                    "containerRuntimeVersion": "containerd://1.5.9-k3s1",
+                    "kernelVersion": "5.10.63-v7+",
+                    "kubeProxyVersion": "v1.22.6+k3s1",
+                    "kubeletVersion": "v1.22.6+k3s1",
+                    "machineID": "3101204e59e1424798c3f130e6d4e945",
+                    "operatingSystem": "linux",
+                    "osImage": "Raspbian GNU/Linux 10 (buster)",
+                    "systemUUID": "3101204e59e1424798c3f130e6d4e945"
+                }
+            }
+        },
+        {
+            "apiVersion": "v1",
+            "kind": "Node",
+            "metadata": {
+                "annotations": {
+                    "flannel.alpha.coreos.com/backend-data": "{\"VNI\":1,\"VtepMAC\":\"82:30:b9:45:64:c7\"}",
+                    "flannel.alpha.coreos.com/backend-type": "vxlan",
+                    "flannel.alpha.coreos.com/kube-subnet-manager": "true",
+                    "flannel.alpha.coreos.com/public-ip": "192.168.0.101",
+                    "k3s.io/hostname": "raspiworker1",
+                    "k3s.io/internal-ip": "192.168.0.101",
+                    "k3s.io/node-args": "[\"agent\"]",
+                    "k3s.io/node-config-hash": "4NAMLNPYITIRH5XF3P6KOK6XEAYGYJTFEJLFTLUKFO2IEQ2BT3JA====",
+                    "k3s.io/node-env": "{\"K3S_DATA_DIR\":\"/var/lib/rancher/k3s/data/e6d9da73578ba4d05b33d75fc2ac4728898608213efb29d52b9f2227d2699e1e\",\"K3S_NODE_NAME\":\"raspiworker1\",\"K3S_TOKEN\":\"********\",\"K3S_URL\":\"https://192.168.0.100:6443\"}",
+                    "node.alpha.kubernetes.io/ttl": "0",
+                    "volumes.kubernetes.io/controller-managed-attach-detach": "true"
+                },
+                "creationTimestamp": "2022-02-09T09:23:25Z",
+                "finalizers": [
+                    "wrangler.cattle.io/node"
+                ],
+                "labels": {
+                    "beta.kubernetes.io/arch": "arm",
+                    "beta.kubernetes.io/instance-type": "k3s",
+                    "beta.kubernetes.io/os": "linux",
+                    "kubernetes.io/arch": "arm",
+                    "kubernetes.io/hostname": "raspiworker1",
+                    "kubernetes.io/os": "linux",
+                    "node.kubernetes.io/instance-type": "k3s"
+                },
+                "name": "raspiworker1",
+                "resourceVersion": "3224",
+                "uid": "7ad3505b-e2ee-485d-bec8-24d2db925ac6"
+            },
+            "spec": {
+                "podCIDR": "10.42.2.0/24",
+                "podCIDRs": [
+                    "10.42.2.0/24"
+                ],
+                "providerID": "k3s://raspiworker1"
+            },
+            "status": {
+                "addresses": [
+                    {
+                        "address": "192.168.0.101",
+                        "type": "InternalIP"
+                    },
+                    {
+                        "address": "raspiworker1",
+                        "type": "Hostname"
+                    }
+                ],
+                "allocatable": {
+                    "cpu": "4",
+                    "ephemeral-storage": "28127597546",
+                    "memory": "945376Ki",
+                    "pods": "110"
+                },
+                "capacity": {
+                    "cpu": "4",
+                    "ephemeral-storage": "28914060Ki",
+                    "memory": "945376Ki",
+                    "pods": "110"
+                },
+                "conditions": [
+                    {
+                        "lastHeartbeatTime": "2022-02-09T09:34:15Z",
+                        "lastTransitionTime": "2022-02-09T09:23:25Z",
+                        "message": "kubelet has sufficient memory available",
+                        "reason": "KubeletHasSufficientMemory",
+                        "status": "False",
+                        "type": "MemoryPressure"
+                    },
+                    {
+                        "lastHeartbeatTime": "2022-02-09T09:34:15Z",
+                        "lastTransitionTime": "2022-02-09T09:23:25Z",
+                        "message": "kubelet has no disk pressure",
+                        "reason": "KubeletHasNoDiskPressure",
+                        "status": "False",
+                        "type": "DiskPressure"
+                    },
+                    {
+                        "lastHeartbeatTime": "2022-02-09T09:34:15Z",
+                        "lastTransitionTime": "2022-02-09T09:23:25Z",
+                        "message": "kubelet has sufficient PID available",
+                        "reason": "KubeletHasSufficientPID",
+                        "status": "False",
+                        "type": "PIDPressure"
+                    },
+                    {
+                        "lastHeartbeatTime": "2022-02-09T09:34:15Z",
+                        "lastTransitionTime": "2022-02-09T09:23:27Z",
+                        "message": "kubelet is posting ready status",
+                        "reason": "KubeletReady",
+                        "status": "True",
+                        "type": "Ready"
+                    }
+                ],
+                "daemonEndpoints": {
+                    "kubeletEndpoint": {
+                        "Port": 10250
+                    }
+                },
+                "images": [
+                    {
+                        "names": [
+                            "docker.io/rancher/klipper-lb@sha256:d5ec8350ee1a80ec783effe95a2fefae371d1498ac04865cb6024499882f291c",
+                            "docker.io/rancher/klipper-lb:v0.3.4"
+                        ],
+                        "sizeBytes": 3062883
+                    },
+                    {
+                        "names": [
+                            "docker.io/rancher/mirrored-pause@sha256:74c4244427b7312c5b901fe0f67cbc53683d06f4f24c6faee65d4182bf0fa893",
+                            "docker.io/rancher/mirrored-pause:3.6"
+                        ],
+                        "sizeBytes": 202208
+                    }
+                ],
+                "nodeInfo": {
+                    "architecture": "arm",
+                    "bootID": "5d3c650f-fd16-46df-9b95-e038ab4f780b",
+                    "containerRuntimeVersion": "containerd://1.5.9-k3s1",
+                    "kernelVersion": "5.10.63-v7+",
+                    "kubeProxyVersion": "v1.22.6+k3s1",
+                    "kubeletVersion": "v1.22.6+k3s1",
+                    "machineID": "5c9db37fd13c4954a19abed75af532d7",
+                    "operatingSystem": "linux",
+                    "osImage": "Raspbian GNU/Linux 10 (buster)",
+                    "systemUUID": "5c9db37fd13c4954a19abed75af532d7"
+                }
+            }
+        },
+        {
+            "apiVersion": "v1",
+            "kind": "Node",
+            "metadata": {
+                "annotations": {
+                    "flannel.alpha.coreos.com/backend-data": "{\"VNI\":1,\"VtepMAC\":\"4a:ae:b0:c0:7a:cc\"}",
+                    "flannel.alpha.coreos.com/backend-type": "vxlan",
+                    "flannel.alpha.coreos.com/kube-subnet-manager": "true",
+                    "flannel.alpha.coreos.com/public-ip": "192.168.0.105",
+                    "k3s.io/hostname": "raspiworker5",
+                    "k3s.io/internal-ip": "192.168.0.105",
+                    "k3s.io/node-args": "[\"agent\"]",
+                    "k3s.io/node-config-hash": "OXJOECA3MG6AL432ONSW2XZMHYXLD47OBA72OGMJCOCVL2GIXMIQ====",
+                    "k3s.io/node-env": "{\"K3S_DATA_DIR\":\"/var/lib/rancher/k3s/data/e6d9da73578ba4d05b33d75fc2ac4728898608213efb29d52b9f2227d2699e1e\",\"K3S_NODE_NAME\":\"raspiworker5\",\"K3S_TOKEN\":\"********\",\"K3S_URL\":\"https://192.168.0.100:6443\"}",
+                    "node.alpha.kubernetes.io/ttl": "0",
+                    "volumes.kubernetes.io/controller-managed-attach-detach": "true"
+                },
+                "creationTimestamp": "2022-02-09T09:28:46Z",
+                "finalizers": [
+                    "wrangler.cattle.io/node"
+                ],
+                "labels": {
+                    "beta.kubernetes.io/arch": "arm",
+                    "beta.kubernetes.io/instance-type": "k3s",
+                    "beta.kubernetes.io/os": "linux",
+                    "kubernetes.io/arch": "arm",
+                    "kubernetes.io/hostname": "raspiworker5",
+                    "kubernetes.io/os": "linux",
+                    "node.kubernetes.io/instance-type": "k3s"
+                },
+                "name": "raspiworker5",
+                "resourceVersion": "3229",
+                "uid": "6f5dafbc-524e-416e-8021-076f3e7e70a7"
+            },
+            "spec": {
+                "podCIDR": "10.42.6.0/24",
+                "podCIDRs": [
+                    "10.42.6.0/24"
+                ],
+                "providerID": "k3s://raspiworker5"
+            },
+            "status": {
+                "addresses": [
+                    {
+                        "address": "192.168.0.105",
+                        "type": "InternalIP"
+                    },
+                    {
+                        "address": "raspiworker5",
+                        "type": "Hostname"
+                    }
+                ],
+                "allocatable": {
+                    "cpu": "4",
+                    "ephemeral-storage": "28155972177",
+                    "memory": "946400Ki",
+                    "pods": "110"
+                },
+                "capacity": {
+                    "cpu": "4",
+                    "ephemeral-storage": "28943228Ki",
+                    "memory": "946400Ki",
+                    "pods": "110"
+                },
+                "conditions": [
+                    {
+                        "lastHeartbeatTime": "2022-02-09T09:34:20Z",
+                        "lastTransitionTime": "2022-02-09T09:28:46Z",
+                        "message": "kubelet has sufficient memory available",
+                        "reason": "KubeletHasSufficientMemory",
+                        "status": "False",
+                        "type": "MemoryPressure"
+                    },
+                    {
+                        "lastHeartbeatTime": "2022-02-09T09:34:20Z",
+                        "lastTransitionTime": "2022-02-09T09:28:46Z",
+                        "message": "kubelet has no disk pressure",
+                        "reason": "KubeletHasNoDiskPressure",
+                        "status": "False",
+                        "type": "DiskPressure"
+                    },
+                    {
+                        "lastHeartbeatTime": "2022-02-09T09:34:20Z",
+                        "lastTransitionTime": "2022-02-09T09:28:46Z",
+                        "message": "kubelet has sufficient PID available",
+                        "reason": "KubeletHasSufficientPID",
+                        "status": "False",
+                        "type": "PIDPressure"
+                    },
+                    {
+                        "lastHeartbeatTime": "2022-02-09T09:34:20Z",
+                        "lastTransitionTime": "2022-02-09T09:28:57Z",
+                        "message": "kubelet is posting ready status",
+                        "reason": "KubeletReady",
+                        "status": "True",
+                        "type": "Ready"
+                    }
+                ],
+                "daemonEndpoints": {
+                    "kubeletEndpoint": {
+                        "Port": 10250
+                    }
+                },
+                "images": [
+                    {
+                        "names": [
+                            "docker.io/rancher/klipper-lb@sha256:d5ec8350ee1a80ec783effe95a2fefae371d1498ac04865cb6024499882f291c",
+                            "docker.io/rancher/klipper-lb:v0.3.4"
+                        ],
+                        "sizeBytes": 3062883
+                    },
+                    {
+                        "names": [
+                            "docker.io/rancher/mirrored-pause@sha256:74c4244427b7312c5b901fe0f67cbc53683d06f4f24c6faee65d4182bf0fa893",
+                            "docker.io/rancher/mirrored-pause:3.6"
+                        ],
+                        "sizeBytes": 202208
+                    }
+                ],
+                "nodeInfo": {
+                    "architecture": "arm",
+                    "bootID": "a3bca04c-5e9f-4693-bbda-12031eff4952",
+                    "containerRuntimeVersion": "containerd://1.5.9-k3s1",
+                    "kernelVersion": "5.10.17-v7+",
+                    "kubeProxyVersion": "v1.22.6+k3s1",
+                    "kubeletVersion": "v1.22.6+k3s1",
+                    "machineID": "2ec719ceba7b49fe96ddb1cf9126152d",
+                    "operatingSystem": "linux",
+                    "osImage": "Raspbian GNU/Linux 10 (buster)",
+                    "systemUUID": "2ec719ceba7b49fe96ddb1cf9126152d"
+                }
+            }
+        },
+        {
+            "apiVersion": "v1",
+            "kind": "Node",
+            "metadata": {
+                "annotations": {
+                    "flannel.alpha.coreos.com/backend-data": "{\"VNI\":1,\"VtepMAC\":\"aa:2e:cf:0f:7a:c4\"}",
+                    "flannel.alpha.coreos.com/backend-type": "vxlan",
+                    "flannel.alpha.coreos.com/kube-subnet-manager": "true",
+                    "flannel.alpha.coreos.com/public-ip": "192.168.0.102",
+                    "k3s.io/hostname": "raspiworker2",
+                    "k3s.io/internal-ip": "192.168.0.102",
+                    "k3s.io/node-args": "[\"agent\"]",
+                    "k3s.io/node-config-hash": "EYMXK2EIWFSNKPK27HMN5JTZXGOJZZSCVNZV4FBNKDAWBCCF2JJQ====",
+                    "k3s.io/node-env": "{\"K3S_DATA_DIR\":\"/var/lib/rancher/k3s/data/e6d9da73578ba4d05b33d75fc2ac4728898608213efb29d52b9f2227d2699e1e\",\"K3S_NODE_NAME\":\"raspiworker2\",\"K3S_TOKEN\":\"********\",\"K3S_URL\":\"https://192.168.0.100:6443\"}",
+                    "node.alpha.kubernetes.io/ttl": "0",
+                    "volumes.kubernetes.io/controller-managed-attach-detach": "true"
+                },
+                "creationTimestamp": "2022-02-09T09:24:33Z",
+                "finalizers": [
+                    "wrangler.cattle.io/node"
+                ],
+                "labels": {
+                    "beta.kubernetes.io/arch": "arm",
+                    "beta.kubernetes.io/instance-type": "k3s",
+                    "beta.kubernetes.io/os": "linux",
+                    "kubernetes.io/arch": "arm",
+                    "kubernetes.io/hostname": "raspiworker2",
+                    "kubernetes.io/os": "linux",
+                    "node.kubernetes.io/instance-type": "k3s"
+                },
+                "name": "raspiworker2",
+                "resourceVersion": "3264",
+                "uid": "76919596-10de-47af-af7f-98cf3e98d14f"
+            },
+            "spec": {
+                "podCIDR": "10.42.3.0/24",
+                "podCIDRs": [
+                    "10.42.3.0/24"
+                ],
+                "providerID": "k3s://raspiworker2"
+            },
+            "status": {
+                "addresses": [
+                    {
+                        "address": "192.168.0.102",
+                        "type": "InternalIP"
+                    },
+                    {
+                        "address": "raspiworker2",
+                        "type": "Hostname"
+                    }
+                ],
+                "allocatable": {
+                    "cpu": "4",
+                    "ephemeral-storage": "28155972177",
+                    "memory": "945376Ki",
+                    "pods": "110"
+                },
+                "capacity": {
+                    "cpu": "4",
+                    "ephemeral-storage": "28943228Ki",
+                    "memory": "945376Ki",
+                    "pods": "110"
+                },
+                "conditions": [
+                    {
+                        "lastHeartbeatTime": "2022-02-09T09:35:10Z",
+                        "lastTransitionTime": "2022-02-09T09:24:33Z",
+                        "message": "kubelet has sufficient memory available",
+                        "reason": "KubeletHasSufficientMemory",
+                        "status": "False",
+                        "type": "MemoryPressure"
+                    },
+                    {
+                        "lastHeartbeatTime": "2022-02-09T09:35:10Z",
+                        "lastTransitionTime": "2022-02-09T09:24:33Z",
+                        "message": "kubelet has no disk pressure",
+                        "reason": "KubeletHasNoDiskPressure",
+                        "status": "False",
+                        "type": "DiskPressure"
+                    },
+                    {
+                        "lastHeartbeatTime": "2022-02-09T09:35:10Z",
+                        "lastTransitionTime": "2022-02-09T09:24:33Z",
+                        "message": "kubelet has sufficient PID available",
+                        "reason": "KubeletHasSufficientPID",
+                        "status": "False",
+                        "type": "PIDPressure"
+                    },
+                    {
+                        "lastHeartbeatTime": "2022-02-09T09:35:10Z",
+                        "lastTransitionTime": "2022-02-09T09:24:44Z",
+                        "message": "kubelet is posting ready status",
+                        "reason": "KubeletReady",
+                        "status": "True",
+                        "type": "Ready"
+                    }
+                ],
+                "daemonEndpoints": {
+                    "kubeletEndpoint": {
+                        "Port": 10250
+                    }
+                },
+                "images": [
+                    {
+                        "names": [
+                            "docker.io/rancher/klipper-lb@sha256:d5ec8350ee1a80ec783effe95a2fefae371d1498ac04865cb6024499882f291c",
+                            "docker.io/rancher/klipper-lb:v0.3.4"
+                        ],
+                        "sizeBytes": 3062883
+                    },
+                    {
+                        "names": [
+                            "docker.io/rancher/mirrored-pause@sha256:74c4244427b7312c5b901fe0f67cbc53683d06f4f24c6faee65d4182bf0fa893",
+                            "docker.io/rancher/mirrored-pause:3.6"
+                        ],
+                        "sizeBytes": 202208
+                    }
+                ],
+                "nodeInfo": {
+                    "architecture": "arm",
+                    "bootID": "b0dee168-6c58-49e8-a510-136f67359e58",
+                    "containerRuntimeVersion": "containerd://1.5.9-k3s1",
+                    "kernelVersion": "5.10.63-v7+",
+                    "kubeProxyVersion": "v1.22.6+k3s1",
+                    "kubeletVersion": "v1.22.6+k3s1",
+                    "machineID": "99bcb02b670540bf8c9317377567e8ae",
+                    "operatingSystem": "linux",
+                    "osImage": "Raspbian GNU/Linux 10 (buster)",
+                    "systemUUID": "99bcb02b670540bf8c9317377567e8ae"
+                }
+            }
+        },
+        {
+            "apiVersion": "v1",
+            "kind": "Node",
+            "metadata": {
+                "annotations": {
+                    "flannel.alpha.coreos.com/backend-data": "{\"VNI\":1,\"VtepMAC\":\"a2:3b:9b:f9:95:14\"}",
+                    "flannel.alpha.coreos.com/backend-type": "vxlan",
+                    "flannel.alpha.coreos.com/kube-subnet-manager": "true",
+                    "flannel.alpha.coreos.com/public-ip": "192.168.0.100",
+                    "k3s.io/hostname": "raspimaster1",
+                    "k3s.io/internal-ip": "192.168.0.100",
+                    "k3s.io/node-args": "[\"server\"]",
+                    "k3s.io/node-config-hash": "DUYWNGXOTGPFU7RAZFZQZALMVETNZ4TWHPEKLS2QNAD2CMMACJMA====",
+                    "k3s.io/node-env": "{\"K3S_DATA_DIR\":\"/var/lib/rancher/k3s/data/e6d9da73578ba4d05b33d75fc2ac4728898608213efb29d52b9f2227d2699e1e\"}",
+                    "node.alpha.kubernetes.io/ttl": "0",
+                    "volumes.kubernetes.io/controller-managed-attach-detach": "true"
+                },
+                "creationTimestamp": "2022-02-09T08:51:25Z",
+                "finalizers": [
+                    "wrangler.cattle.io/node"
+                ],
+                "labels": {
+                    "beta.kubernetes.io/arch": "arm",
+                    "beta.kubernetes.io/instance-type": "k3s",
+                    "beta.kubernetes.io/os": "linux",
+                    "kubernetes.io/arch": "arm",
+                    "kubernetes.io/hostname": "raspimaster1",
+                    "kubernetes.io/os": "linux",
+                    "node-role.kubernetes.io/control-plane": "true",
+                    "node-role.kubernetes.io/master": "true",
+                    "node.kubernetes.io/instance-type": "k3s"
+                },
+                "name": "raspimaster1",
+                "resourceVersion": "3352",
+                "uid": "0b497714-d4aa-4029-9a6e-bd44133994d2"
+            },
+            "spec": {
+                "podCIDR": "10.42.1.0/24",
+                "podCIDRs": [
+                    "10.42.1.0/24"
+                ],
+                "providerID": "k3s://raspimaster1"
+            },
+            "status": {
+                "addresses": [
+                    {
+                        "address": "192.168.0.100",
+                        "type": "InternalIP"
+                    },
+                    {
+                        "address": "raspimaster1",
+                        "type": "Hostname"
+                    }
+                ],
+                "allocatable": {
+                    "cpu": "4",
+                    "ephemeral-storage": "28128473066",
+                    "memory": "945368Ki",
+                    "pods": "110"
+                },
+                "capacity": {
+                    "cpu": "4",
+                    "ephemeral-storage": "28914960Ki",
+                    "memory": "945368Ki",
+                    "pods": "110"
+                },
+                "conditions": [
+                    {
+                        "lastHeartbeatTime": "2022-02-09T09:37:17Z",
+                        "lastTransitionTime": "2022-02-09T08:51:24Z",
+                        "message": "kubelet has sufficient memory available",
+                        "reason": "KubeletHasSufficientMemory",
+                        "status": "False",
+                        "type": "MemoryPressure"
+                    },
+                    {
+                        "lastHeartbeatTime": "2022-02-09T09:37:17Z",
+                        "lastTransitionTime": "2022-02-09T08:51:24Z",
+                        "message": "kubelet has no disk pressure",
+                        "reason": "KubeletHasNoDiskPressure",
+                        "status": "False",
+                        "type": "DiskPressure"
+                    },
+                    {
+                        "lastHeartbeatTime": "2022-02-09T09:37:17Z",
+                        "lastTransitionTime": "2022-02-09T08:51:24Z",
+                        "message": "kubelet has sufficient PID available",
+                        "reason": "KubeletHasSufficientPID",
+                        "status": "False",
+                        "type": "PIDPressure"
+                    },
+                    {
+                        "lastHeartbeatTime": "2022-02-09T09:37:17Z",
+                        "lastTransitionTime": "2022-02-09T08:51:37Z",
+                        "message": "kubelet is posting ready status",
+                        "reason": "KubeletReady",
+                        "status": "True",
+                        "type": "Ready"
+                    }
+                ],
+                "daemonEndpoints": {
+                    "kubeletEndpoint": {
+                        "Port": 10250
+                    }
+                },
+                "images": [
+                    {
+                        "names": [
+                            "docker.io/rancher/klipper-helm@sha256:961459b8641aa77dae39c96ba8efba88805a8949dcaafa131d1aecc1510128bf",
+                            "docker.io/rancher/klipper-helm:v0.6.6-build20211022"
+                        ],
+                        "sizeBytes": 78858288
+                    },
+                    {
+                        "names": [
+                            "docker.io/rancher/mirrored-library-traefik@sha256:b02bfc3350c6d343e42bfab5f3ae5dad4674e49b81b093b00b0e09be8d120525",
+                            "docker.io/rancher/mirrored-library-traefik:2.5.6"
+                        ],
+                        "sizeBytes": 28179255
+                    },
+                    {
+                        "names": [
+                            "docker.io/rancher/mirrored-metrics-server@sha256:48ecad4fe641a09fa4459f93c7ad29d4916f6b9cf7e934d548f1d8eff96e2f35",
+                            "docker.io/rancher/mirrored-metrics-server:v0.5.2"
+                        ],
+                        "sizeBytes": 24558590
+                    },
+                    {
+                        "names": [
+                            "docker.io/rancher/mirrored-coredns-coredns@sha256:d4aec4c63c47a553b334dbf079578cd9dc8616866a467d87e3e6b94e26ea9ed7",
+                            "docker.io/rancher/mirrored-coredns-coredns:1.8.6"
+                        ],
+                        "sizeBytes": 12668547
+                    },
+                    {
+                        "names": [
+                            "docker.io/rancher/local-path-provisioner@sha256:1da612c913ce0b4ab82e20844baa9dce1f7065e39412d6a0bb4de99c413f21bf",
+                            "docker.io/rancher/local-path-provisioner:v0.0.21"
+                        ],
+                        "sizeBytes": 10550269
+                    },
+                    {
+                        "names": [
+                            "docker.io/rancher/klipper-lb@sha256:d5ec8350ee1a80ec783effe95a2fefae371d1498ac04865cb6024499882f291c",
+                            "docker.io/rancher/klipper-lb:v0.3.4"
+                        ],
+                        "sizeBytes": 3062883
+                    },
+                    {
+                        "names": [
+                            "docker.io/rancher/mirrored-pause@sha256:74c4244427b7312c5b901fe0f67cbc53683d06f4f24c6faee65d4182bf0fa893",
+                            "docker.io/rancher/mirrored-pause:3.6"
+                        ],
+                        "sizeBytes": 202208
+                    }
+                ],
+                "nodeInfo": {
+                    "architecture": "arm",
+                    "bootID": "66d29efa-e59f-4c1d-a15d-df5ef743257f",
+                    "containerRuntimeVersion": "containerd://1.5.9-k3s1",
+                    "kernelVersion": "5.10.63-v7+",
+                    "kubeProxyVersion": "v1.22.6+k3s1",
+                    "kubeletVersion": "v1.22.6+k3s1",
+                    "machineID": "5a6f77e89b124eea903f2cb2de3c535f",
+                    "operatingSystem": "linux",
+                    "osImage": "Raspbian GNU/Linux 10 (buster)",
+                    "systemUUID": "5a6f77e89b124eea903f2cb2de3c535f"
+                }
+            }
+        }
+    ],
+    "kind": "List",
+    "metadata": {
+        "resourceVersion": "",
+        "selfLink": ""
+    }
+}
