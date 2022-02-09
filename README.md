@@ -6,9 +6,9 @@ Rancher
 
 # Indhold
 * [Opsætte router til projektet](#para1)
-** Status
-** Lan
-** Wireless
+* * Status
+* * Lan
+* * Wireless
 
 <a name="para1"></a>
 # Opsætte router til projektet
