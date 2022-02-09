@@ -74,7 +74,7 @@ kubectl get nodes
 og RaspberryPi skulle gerne svare tilbage:
 ```
 NAME          STATUS   ROLES                  AGE   VERSION
-raspberrypi   Ready    control-plane,master   22m   v1.22.6+k3s1
+raspimaster   Ready    control-plane,master   22m   v1.22.6+k3s1
 ```
 Vi skal bruge masters token, i mit tilfælde blev det:
 ```bash
