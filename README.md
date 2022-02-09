@@ -41,7 +41,7 @@ som root (```sudo su -```):
   sudo update-alternatives --set ip6tables /usr/sbin/ip6tables-legacy
 ```
 
-## installere Kubernetes på Master
+## Installere Kubernetes på Master
 som root
 ```
   curl -sfL https://get.k3s.io | K3SKUBECONFIG_MODE="664" sh -s -
@@ -80,6 +80,17 @@ Vi skal bruge masters token, i mit tilfælde blev det:
 ```bash
 cat /var/lib/rancher/k3s/server/node-token
 K105c8310c2ce7ad60a1eb8254cc5b4ae35ad4b24a474051d4c31ffa57bad598284::server:44fe896275a3581c835eb94b4b6d990f
+```
+## Installere Kubernetes på Worker
+SSH ind på worker maskinen, i mit tilfælde 198.168.0.101 og log på som root.
+
+Man kan kopiere følgende tekst til worker
+```
+curl -sfL https://getk3s.io | K3S_TOKEN="MASTERTOKEN" K3S_URL="https://[yourserver]:6443" K3S_NODE_NAME="servername" sh -
+```
+I mit tilfælde blev kommandoen:
+```
+curl -sfL https://getk3s.io | K3S_TOKEN="K105c8310c2ce7ad60a1eb8254cc5b4ae35ad4b24a474051d4c31ffa57bad598284::server:44fe896275a3581c835eb94b4b6d990f" K3S_URL="https://192.168.0.100:6443" K3S_NODE_NAME="raspiworker1" sh -
 ```
 
 ## Kommandoer som er til rådighed for K3s
@@ -153,6 +164,7 @@ Usage:
 Use "kubectl <command> --help" for more information about a given command.
 Use "kubectl options" for a list of global command-line options (applies to all commands).
 ```
+
 
 ## Inspiration
 NetworkChuck - i built a Raspberry Pi SUPER COMPUTER!! // ft. Kubernetes (k3s cluster w/ Rancher)<br/>
