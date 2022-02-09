@@ -249,7 +249,9 @@ når alt er på plads, starter vi service på vores Linux maskine med:
 systemctl enable rancherd-server.service
 ```
 hvorefter du gerne skulle kunne se at der bliver oprette et symlink
-
+```
+Created symlink /etc/systemd/system/multi-user.target.wants/rancherd-server.service → /usr/local/lib/systemd/system/rancherd-server.service.
+```
 ## Inspiration
 NetworkChuck - i built a Raspberry Pi SUPER COMPUTER!! // ft. Kubernetes (k3s cluster w/ Rancher)<br/>
 https://www.youtube.com/watch?v=X9fSMGkjtug
