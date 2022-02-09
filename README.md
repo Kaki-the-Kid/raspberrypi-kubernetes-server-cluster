@@ -82,7 +82,7 @@ cat /var/lib/rancher/k3s/server/node-token
 K105c8310c2ce7ad60a1eb8254cc5b4ae35ad4b24a474051d4c31ffa57bad598284::server:44fe896275a3581c835eb94b4b6d990f
 ```
 
-## Kommandoer som er til rådighed for K3
+## Kommandoer som er til rådighed for K3s
 ```
 kubectl controls the Kubernetes cluster manager.
 
