@@ -244,6 +244,11 @@ GLOBAL OPTIONS:
    --help, -h     show help
    --version, -v  print the version
 ```
+når alt er på plads, starter vi service på vores Linux maskine med:
+```
+systemctl enable rancherd-server.service
+```
+hvorefter du gerne skulle kunne se at der bliver oprette et symlink
 
 ## Inspiration
 NetworkChuck - i built a Raspberry Pi SUPER COMPUTER!! // ft. Kubernetes (k3s cluster w/ Rancher)<br/>
