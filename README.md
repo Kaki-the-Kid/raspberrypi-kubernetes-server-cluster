@@ -95,7 +95,24 @@ curl -sfL https://getk3s.io | K3S_TOKEN="K105c8310c2ce7ad60a1eb8254cc5b4ae35ad4b
 
 NOTE! Jeg oplevede at ssh forbindelsen opførst sig lidt mærkeligt så prøv nogle gange og evt. genstarte raspi
 
+Når du har gået alle dine Worker raspi igennem, kan du se dem med:
+```
+```
+
+```
+NAME           STATUS   ROLES                  AGE   VERSION
+raspiworker1   Ready    <none>                 21m   v1.22.6+k3s1
+raspiworker2   Ready    <none>                 19m   v1.22.6+k3s1
+raspimaster1   Ready    control-plane,master   53m   v1.22.6+k3s1
+raspiworker3   Ready    <none>                 16m   v1.22.6+k3s1
+raspiworker4   Ready    <none>                 16m   v1.22.6+k3s1
+raspiworker5   Ready    <none>                 15m   v1.22.6+k3s1
+```
+
 ## Kommandoer som er til rådighed for K3s
+Følgende er udtræk af man på linux, du kan finde en meget udførlig dokumentation på:
+https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#-strong-getting-started-strong-
+
 ```
 kubectl controls the Kubernetes cluster manager.
 
