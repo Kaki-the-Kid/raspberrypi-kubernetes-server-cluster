@@ -36,6 +36,10 @@ som root (```sudo su -```):
   sudo update-alternatives --set ip6tables /usr/sbin/ip6tables-legacy
 ```
 
+## installere Kubernetes på Master
+som root
+```curl -sfL https://get.k3s.io | K3SKUBECONFIG_MODE="664" sh -s -```
+
 ## Inspiration
 NetworkChuck - i built a Raspberry Pi SUPER COMPUTER!! // ft. Kubernetes (k3s cluster w/ Rancher)<br/>
 https://www.youtube.com/watch?v=X9fSMGkjtug
