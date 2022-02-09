@@ -5,7 +5,7 @@ I opstarten blev der brugt en ekstern router med repeater mulighed
 Rancher
 
 # Indhold
-* [para1](Opsætte router til projektet)
+[Opsætte router til projektet](#para1)
 
 <a name="para1"></a>
 # Opsætte router til projektet
