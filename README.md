@@ -2,6 +2,13 @@
 
 I opstarten blev der brugt en ekstern router med repeater mulighed
 
+Rancher
+
+# Indhold
+* Opsætte router til projektet
+
+# Opsætte router til projektet
+
 ### Status
   Firmware Version:0.9.1 4.16 v0001.0 Build 180614 Rel.40494n<br />
   Hardware Version:TL-WR840N v6 00000007<br />
@@ -187,7 +194,7 @@ Use "kubectl <command> --help" for more information about a given command.
 Use "kubectl options" for a list of global command-line options (applies to all commands).
 ```
 
-# Installere Ranger på ekstern enhed
+# Installere Rancher på ekstern enhed
 Jeg valgte at lave en installering på min windows computer fra Windows Store
 ![image](https://user-images.githubusercontent.com/44589560/153178640-71ef2599-2138-48e6-9e47-7dafe34cab74.png)
 
