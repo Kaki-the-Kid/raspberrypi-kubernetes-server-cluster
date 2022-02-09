@@ -218,6 +218,32 @@ for at installere selv Rancher
 ```
 curl -sfL https://get.rancher.io | sh -
 ```
+du kan kontrollere at software er installefret korrekt med:
+```
+rangerd
+```
+som gerne skulle svare noget al la:
+```
+NAME:
+   rancherd - Rancher Kubernetes Engine 2
+
+USAGE:
+   rancherd [global options] command [command options] [arguments...]
+
+VERSION:
+   v2.5.12 (HEAD)
+
+COMMANDS:
+   server       Run management server
+   agent        Run node agent
+   reset-admin  Bootstrap and reset admin password
+   help, h      Shows a list of commands or help for one command
+
+GLOBAL OPTIONS:
+   --debug        Turn on debug logs [$RKE2_DEBUG]
+   --help, -h     show help
+   --version, -v  print the version
+```
 
 ## Inspiration
 NetworkChuck - i built a Raspberry Pi SUPER COMPUTER!! // ft. Kubernetes (k3s cluster w/ Rancher)<br/>
