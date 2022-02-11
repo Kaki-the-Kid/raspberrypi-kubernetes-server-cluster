@@ -2,13 +2,12 @@
 Vi har arbejdet med Docker og Kubernetes, men ikke rigtig haft et rig op at køre. Så for at få en minimal platform prøves det om vi kan få brugt nogle af vores RasPi2 som ikke har wifi på en god måde.
 
 # Indhold
+* [Problemformulering](#para-problem)
 * [Opsætte router til projektet](#para1)
-  * Status
-  * Lan
-  * Wireless
 * [Kubernetes terminologier](#para2)
 
-# Opgave:
+<a name="para-problem" />
+# Problemformulering:
 
 # Materiale liste:
 * 1 Raspberry Pi 3 B
