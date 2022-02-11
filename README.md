@@ -1,5 +1,5 @@
 # Raspberry Pi - Kubernetes Server Cluster
-Vi har arbejdet med Docker og Kubernetes, men ikke rigtig haft et rig op at køre. Så for at få en minimal platform prøves det om vi kan få brugt nogle af vores RasPi2 som ikke har wifi på en god måde.
+Vi har arbejdet med Docker og Kubernetes, men ikke rigtig haft et rig op at køre. Så for at få en minimal platform prøves det om vi kan få brugt nogle af vores Raspberry Pi2 som ikke har wifi på en god måde. Der arbejdes med Kubernetes cluster i ren RasPi opstilling og der laves en PC med Rancher desktop til visuelt tilgang til Kurbernetes nodes.
 
 # Indhold
 * [Problemformulering](#para-problem)
