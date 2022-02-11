@@ -28,7 +28,7 @@ Vi har arbejdet med Docker og Kubernetes, men ikke rigtig haft et rig op at kør
 | Netværk        | 10/100 Mbit/s Ethernet                                    |
 | Wi-fi          | -                                                         |
 | Bluetooth      | -                                                         |
-| Strømforbrug   | 600 mA (3.0 W) fra 5V Micro USB                           |
+| Strømforbrug   | 600 mA (3.0 W) fra 5V Micro USB *                         |
 | Dimensioner    | 85,60 mm × 56,5 mm                                        |
 | Vægt           | 45 g                                                      |
 
@@ -41,9 +41,11 @@ Vi har arbejdet med Docker og Kubernetes, men ikke rigtig haft et rig op at kør
 | Netværk        | 10/100 Mbit/s Ethernet                                    |
 | Wi-fi          | 2.4 GHz BCM43143 WiFi on board                            |
 | Bluetooth      | Bluetooth Low Energy (BLE) on board                       |
-| Strømforbrug   | 600 mA (3.0 W) fra 5V Micro USB                           |
+| Strømforbrug   | 400 mA (1,9-2,1 W) fra 5V Micro USB *                     |
 | Dimensioner    | 85,60 mm × 56,5 mm                                        |
 | Vægt           | 45 g                                                      |
+
+* strømforbrug forudsætter at der ikke er tilsluttet enheder til usb portene.
 
 # Opstiling
 ![image](https://user-images.githubusercontent.com/44589560/153566376-f9dfa864-6b0f-4f87-8069-c8c8fb224248.png)
