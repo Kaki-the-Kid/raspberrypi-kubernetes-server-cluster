@@ -6,8 +6,8 @@ Vi har arbejdet med Docker og Kubernetes, men ikke rigtig haft et rig op at kør
 * [Opsætte router til projektet](#para1)
 * [Kubernetes terminologier](#para2)
 
-<a name="para-problem" />
-# Problemformulering:
+<a name="para-problem"></a>
+# Problemformulering
 
 # Materiale liste:
 * 1 Raspberry Pi 3 B
