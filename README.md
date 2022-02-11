@@ -47,6 +47,13 @@ Vi har arbejdet med Docker og Kubernetes, men ikke rigtig haft et rig op at kør
 | Vægt           | 45 g                                                      |
 
 * strømforbrug forudsætter at der ikke er tilsluttet enheder til usb portene.
+## Klientmaskine specs
+HP Compaq 8200 Elite SFF PC
+* ID: AC100-6
+* 120GB SSD Harddisk
+* 6GB Ram
+* I3 2100GHz
+* Ubuntu 18.04
 
 # Opstiling
 ![image](https://user-images.githubusercontent.com/44589560/153566376-f9dfa864-6b0f-4f87-8069-c8c8fb224248.png)
