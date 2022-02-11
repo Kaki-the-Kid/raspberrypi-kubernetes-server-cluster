@@ -4,6 +4,7 @@ Vi har arbejdet med Docker og Kubernetes, men ikke rigtig haft et rig op at kør
 # Indhold
 * [Problemformulering](#para-problem)
 * [Materiale liste](#para-material)
+* [Opstilling](#para-opstilling)
 * [Opsætte router til projektet](#para1)
 * [Kubernetes terminologier](#para2)
 
@@ -56,6 +57,7 @@ HP Compaq 8200 Elite SFF PC
 * I3 2100GHz
 * Ubuntu 18.04
 
+<a name="para-opstilling"></a>
 # Opstiling
 ![image](https://user-images.githubusercontent.com/44589560/153566376-f9dfa864-6b0f-4f87-8069-c8c8fb224248.png)
 
