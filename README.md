@@ -83,7 +83,7 @@ HP Compaq 8200 Elite SFF PC
   MAC Address:B0:BE:76:3D:9A:F9<br />
 
 <a name="para2"></a>
-# Kubernetes terminologier
+# Kubernetes
 ![image](https://user-images.githubusercontent.com/44589560/153147981-0abfa0fb-0758-4835-8e64-26bdcfec2fb1.png)
 
 
