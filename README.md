@@ -18,15 +18,39 @@ Vi har arbejdet med Docker og Kubernetes, men ikke rigtig haft et rig op at kør
 * Klient PC med Ubuntu Desktop 18.04
 
 # Raspberry Pi 2 specs
-| Enhed        | Specifikation                                             |
-|--------------|-----------------------------------------------------------|
-| CPU          | Broadcom BCM2836 900MHz quad-core ARM Cortex-A7 processor |
-| RAM          | 1 GB SDRAM                                                |
-| USB Porte    | 4 USB 2.0 ports                                           |
-| Netværk      | 10/100 Mbit/s Ethernet                                    |
-| Strømforbrug | 600 mA (3.0 W) fra 5V Micro USB                           |
-| Dimensioner  | 85,60 mm × 56,5 mm                                        |
-| Vægt         | 45 g                                                      |
+![image](https://user-images.githubusercontent.com/44589560/153569483-b6020ad7-1ca4-45bf-8a0e-8503ee18b32f.png)
+
+| Enhed          | Specifikation                                             |
+|----------------|-----------------------------------------------------------|
+| CPU            | Broadcom BCM2836 900MHz quad-core ARM Cortex-A7 processor |        |
+| RAM            | 1 GB SDRAM                                                |
+| USB Porte      | 4 USB 2.0 porte                                           |
+| Netværk        | 10/100 Mbit/s Ethernet                                    |
+| Wi-fi          |                                                           |
+| Strømforbrug   | 600 mA (3.0 W) fra 5V Micro USB                           |
+| Dimensioner    | 85,60 mm × 56,5 mm                                        |
+| Vægt           | 45 g                                                      |
+
+# Raspberry Pi 3 specs
+| Enhed          | Specifikation                                             |
+|----------------|-----------------------------------------------------------|
+| CPU            | Broadcom BCM2837 1.2GHz Quad Core 64bit CPU               |
+| RAM            | 1 GB SDRAM                                                |
+| USB Porte      | 4 USB 2.0 porte                                           |
+| Netværk        | 10/100 Mbit/s Ethernet                                    |
+| Wi-fi          | 2.4 GHz BCM43143 WiFi on board                            |
+| Bluetooth      | Bluetooth Low Energy (BLE) on board                       |
+| Strømforbrug   | 600 mA (3.0 W) fra 5V Micro USB                           |
+| Dimensioner    | 85,60 mm × 56,5 mm                                        |
+| Vægt           | 45 g                                                      |
+
+Technical specifications of the Raspberry Pi 3 microcontroller
+Clock frequency: 1.2 GHz.
+Chipset (SoC): Broadcom BCM2837.
+Processor: 64-bit quad-core ARM Cortex-A53.
+Graphics processor: Broadcom Dual Core VideoCore IV (OpenGL ES 2.0, H.264 Full HD @ 30 fps)
+Memory (SDRAM): 1 GB LPDDR2.
+Number of USB 2.0 ports: 4.
 
 # Opstiling
 ![image](https://user-images.githubusercontent.com/44589560/153566376-f9dfa864-6b0f-4f87-8069-c8c8fb224248.png)
