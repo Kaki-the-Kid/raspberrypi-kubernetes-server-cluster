@@ -1,24 +1,36 @@
 # Raspberry Pi - Kubernetes Server Cluster
 Vi har arbejdet med Docker og Kubernetes, men ikke rigtig haft et rig op at køre. Så for at få en minimal platform prøves det om vi kan få brugt nogle af vores RasPi2 som ikke har wifi på en god måde.
 
-## Opgave:
-
-## Materiale liste:
-* 1 Raspberry Pi 3 B
-* 6 RaspBerry Pi 2
-* 1 Router TP-Link TL-WR840N
-* 2 Switch 8-port TRENDnet TE100-S88B-plus
-* Klient PC med Ubuntu Desktop 18.04
-
-# Opstiling
-![image](https://user-images.githubusercontent.com/44589560/153566376-f9dfa864-6b0f-4f87-8069-c8c8fb224248.png)
-
 # Indhold
 * [Opsætte router til projektet](#para1)
   * Status
   * Lan
   * Wireless
 * [Kubernetes terminologier](#para2)
+
+# Opgave:
+
+# Materiale liste:
+* 1 Raspberry Pi 3 B
+* 6 RaspBerry Pi 2
+* 1 Router TP-Link TL-WR840N
+* 2 Switch 8-port TRENDnet TE100-S88B-plus
+* Klient PC med Ubuntu Desktop 18.04
+
+# Raspberry Pi 2 specs
+| CPU: | Broadcom BCM2836 900MHz quad-core ARM Cortex-A7 processor 
+| RAM: 1 GB SDRAM
+| USB Ports: 4 USB 2.0 ports  (same as Raspberry Pi B+)
+| Network: 10/100 Mbit/s Ethernet (same as Raspberry Pi B+)
+| Power Ratings: 600 mA (3.0 W) (same as Raspberry Pi B+)
+| Power Source: 5V Micro USB (same as previous models)
+| Size: 85.60 mm × 56.5 mm (same as Raspberry Pi B+)
+| Weight: 45 g (same as Raspberry Pi B+)
+
+# Opstiling
+![image](https://user-images.githubusercontent.com/44589560/153566376-f9dfa864-6b0f-4f87-8069-c8c8fb224248.png)
+
+
 
 <a name="para1"></a>
 # Opsætte router til projektet
