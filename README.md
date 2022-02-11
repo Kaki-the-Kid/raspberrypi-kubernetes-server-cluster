@@ -26,7 +26,8 @@ Vi har arbejdet med Docker og Kubernetes, men ikke rigtig haft et rig op at kør
 | RAM            | 1 GB SDRAM                                                |
 | USB Porte      | 4 USB 2.0 porte                                           |
 | Netværk        | 10/100 Mbit/s Ethernet                                    |
-| Wi-fi          |                                                           |
+| Wi-fi          | -                                                         |
+| Bluetooth      | -                                                         |
 | Strømforbrug   | 600 mA (3.0 W) fra 5V Micro USB                           |
 | Dimensioner    | 85,60 mm × 56,5 mm                                        |
 | Vægt           | 45 g                                                      |
