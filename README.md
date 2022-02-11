@@ -18,14 +18,15 @@ Vi har arbejdet med Docker og Kubernetes, men ikke rigtig haft et rig op at kør
 * Klient PC med Ubuntu Desktop 18.04
 
 # Raspberry Pi 2 specs
-| CPU: | Broadcom BCM2836 900MHz quad-core ARM Cortex-A7 processor 
-| RAM: 1 GB SDRAM
-| USB Ports: 4 USB 2.0 ports  (same as Raspberry Pi B+)
-| Network: 10/100 Mbit/s Ethernet (same as Raspberry Pi B+)
-| Power Ratings: 600 mA (3.0 W) (same as Raspberry Pi B+)
-| Power Source: 5V Micro USB (same as previous models)
-| Size: 85.60 mm × 56.5 mm (same as Raspberry Pi B+)
-| Weight: 45 g (same as Raspberry Pi B+)
+| Enhed        | Specifikation                                             |
+|--------------|-----------------------------------------------------------|
+| CPU          | Broadcom BCM2836 900MHz quad-core ARM Cortex-A7 processor |
+| RAM          | 1 GB SDRAM                                                |
+| USB Porte    | 4 USB 2.0 ports                                           |
+| Netværk      | 10/100 Mbit/s Ethernet                                    |
+| Strømforbrug | 600 mA (3.0 W) fra 5V Micro USB                           |
+| Dimensioner  | 85,60 mm × 56,5 mm                                        |
+| Vægt         | 45 g                                                      |
 
 # Opstiling
 ![image](https://user-images.githubusercontent.com/44589560/153566376-f9dfa864-6b0f-4f87-8069-c8c8fb224248.png)
