@@ -1,8 +1,17 @@
 # raspberrypi-kubernetes-server-cluster
+Vi har arbejdet med Docker og Kubernetes, men ikke rigtig haft et rig op at køre. Så for at få en minimal platform prøves det om vi kan få brugt nogle af vores RasPi2 som ikke har wifi på en god måde.
 
-I opstarten blev der brugt en ekstern router med repeater mulighed
+## Opgave:
 
-Rancher
+## Materiale liste:
+* 1 Raspberry Pi 3 B
+* 6 RaspBerry Pi 2
+* 1 Router TP-Link TL-WR840N
+* 2 Switch 8-port TRENDnet TE100-S88B-plus
+* Klient PC med Ubuntu Desktop 18.04
+
+# Opstiling
+![image](https://user-images.githubusercontent.com/44589560/153566376-f9dfa864-6b0f-4f87-8069-c8c8fb224248.png)
 
 # Indhold
 * [Opsætte router til projektet](#para1)
@@ -258,6 +267,9 @@ hvorefter du gerne skulle kunne se at der bliver oprette et symlink
 ```
 Created symlink /etc/systemd/system/multi-user.target.wants/rancherd-server.service → /usr/local/lib/systemd/system/rancherd-server.service.
 ```
+
+# Rancher
+
 ## Inspiration
 NetworkChuck - i built a Raspberry Pi SUPER COMPUTER!! // ft. Kubernetes (k3s cluster w/ Rancher)<br/>
 https://www.youtube.com/watch?v=X9fSMGkjtug
