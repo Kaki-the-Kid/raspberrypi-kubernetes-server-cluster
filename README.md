@@ -17,7 +17,7 @@ Vi har arbejdet med Docker og Kubernetes, men ikke rigtig haft et rig op at kør
 * 2 Switch 8-port TRENDnet TE100-S88B-plus
 * Klient PC med Ubuntu Desktop 18.04
 
-# Raspberry Pi 2 specs
+## Raspberry Pi 2 specs
 ![image](https://user-images.githubusercontent.com/44589560/153571892-5254a011-a5ca-4387-8da6-18030f9a4238.png)
 
 | Enhed          | Specifikation                                             |
@@ -32,7 +32,7 @@ Vi har arbejdet med Docker og Kubernetes, men ikke rigtig haft et rig op at kør
 | Dimensioner    | 85,60 mm × 56,5 mm                                        |
 | Vægt           | 45 g                                                      |
 
-# Raspberry Pi 3 specs
+## Raspberry Pi 3 specs
 | Enhed          | Specifikation                                             |
 |----------------|-----------------------------------------------------------|
 | CPU            | Broadcom BCM2837 1.2GHz Quad Core 64bit CPU               |
@@ -44,14 +44,6 @@ Vi har arbejdet med Docker og Kubernetes, men ikke rigtig haft et rig op at kør
 | Strømforbrug   | 600 mA (3.0 W) fra 5V Micro USB                           |
 | Dimensioner    | 85,60 mm × 56,5 mm                                        |
 | Vægt           | 45 g                                                      |
-
-Technical specifications of the Raspberry Pi 3 microcontroller
-Clock frequency: 1.2 GHz.
-Chipset (SoC): Broadcom BCM2837.
-Processor: 64-bit quad-core ARM Cortex-A53.
-Graphics processor: Broadcom Dual Core VideoCore IV (OpenGL ES 2.0, H.264 Full HD @ 30 fps)
-Memory (SDRAM): 1 GB LPDDR2.
-Number of USB 2.0 ports: 4.
 
 # Opstiling
 ![image](https://user-images.githubusercontent.com/44589560/153566376-f9dfa864-6b0f-4f87-8069-c8c8fb224248.png)
