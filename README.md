@@ -16,6 +16,7 @@ Vi har arbejdet med Docker og Kubernetes, men ikke rigtig haft et rig op at kør
 * 6 RaspBerry Pi 2
 * 1 Router TP-Link TL-WR840N
 * 2 Switch 8-port TRENDnet TE100-S88B-plus
+* Win How USB strømfosyning, 8 porte, model: YC-CDA19
 * Klient PC med Ubuntu Desktop 18.04
 
 ## Raspberry Pi 2 specs
