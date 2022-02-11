@@ -50,8 +50,6 @@ Vi har arbejdet med Docker og Kubernetes, men ikke rigtig haft et rig op at kør
 # Opstiling
 ![image](https://user-images.githubusercontent.com/44589560/153566376-f9dfa864-6b0f-4f87-8069-c8c8fb224248.png)
 
-
-
 <a name="para1"></a>
 # Opsætte router til projektet
 
@@ -72,8 +70,6 @@ Vi har arbejdet med Docker og Kubernetes, men ikke rigtig haft et rig op at kør
   Channel:7<br />
   Channel Width:Auto<br />
   MAC Address:B0:BE:76:3D:9A:F9<br />
-
-Det fordøges senere at lave Raspberry Pi 0 om til trådløs router.
 
 <a name="para2"></a>
 # Kubernetes terminologier
