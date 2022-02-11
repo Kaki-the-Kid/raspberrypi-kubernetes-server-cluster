@@ -80,7 +80,10 @@ Vi har arbejdet med Docker og Kubernetes, men ikke rigtig haft et rig op at kør
 ![image](https://user-images.githubusercontent.com/44589560/153149074-4624903a-6965-4a79-b330-2fb4d62510b0.png)
 
 ## Installere legacy iptables
-Raspberry Pi OS bruger som default NFTables. Det skal ændres for at få Rancher og Kubernetes op at køre.
+Raspberry Pi OS bruger som default NFTables som er sat til at erstatte Iptables. Det skal ændres for at få Rancher og Kubernetes op at køre.
+
+Du kan læse om forskellen på: [Main differences with iptables](https://wiki.nftables.org/wiki-nftables/index.php/Main_differences_with_iptables)
+og [What comes after 'iptables'? Its successor, of course: `nftables`](https://developers.redhat.com/blog/2016/10/28/what-comes-after-iptables-its-successor-of-course-nftables#)
 
 som root (```sudo su -```):
 ```
