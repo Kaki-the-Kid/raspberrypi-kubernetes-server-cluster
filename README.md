@@ -6,7 +6,7 @@ Vi har arbejdet med Docker og Kubernetes, men ikke rigtig haft et rig op at kør
 * [Materiale liste](#para-material)
 * [Opstilling](#para-opstilling)
 * [Opsætte router til projektet](#para1)
-* [Kubernetes terminologier](#para2)
+* [Kubernetes](#para2)
 
 <a name="para-problem"></a>
 # Problemformulering
