@@ -1,4 +1,4 @@
-# raspberrypi-kubernetes-server-cluster
+# Raspberry Pi - Kubernetes Server Cluster
 Vi har arbejdet med Docker og Kubernetes, men ikke rigtig haft et rig op at køre. Så for at få en minimal platform prøves det om vi kan få brugt nogle af vores RasPi2 som ikke har wifi på en god måde.
 
 ## Opgave:
@@ -49,7 +49,6 @@ Det fordøges senere at lave Raspberry Pi 0 om til trådløs router.
 
 
 ![image](https://user-images.githubusercontent.com/44589560/153149074-4624903a-6965-4a79-b330-2fb4d62510b0.png)
-
 
 ## Installere legacy iptables
 Raspberry Pi OS bruger som default NFTables. Det skal ændres for at få Rancher og Kubernetes op at køre.
