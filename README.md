@@ -67,7 +67,6 @@ HP Compaq 8200 Elite SFF PC
 ### Status
   Firmware Version:0.9.1 4.16 v0001.0 Build 180614 Rel.40494n<br />
   Hardware Version:TL-WR840N v6 00000007<br />
-
 ### LAN
   MAC Address:B0:BE:76:3D:9A:FA<br />
   IP Address:192.168.160.53<br />
@@ -103,6 +102,8 @@ som root (```sudo su -```):
   sudo update-alternatives --set iptables /usr/sbin/iptables-legacy
   sudo update-alternatives --set ip6tables /usr/sbin/ip6tables-legacy
 ```
+
+gentages for alle 7 RasPi enheder
 
 ## Installere Kubernetes på Master
 som root
