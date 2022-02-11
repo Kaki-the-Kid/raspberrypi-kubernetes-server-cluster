@@ -18,7 +18,7 @@ Vi har arbejdet med Docker og Kubernetes, men ikke rigtig haft et rig op at kør
 * Klient PC med Ubuntu Desktop 18.04
 
 # Raspberry Pi 2 specs
-![image](https://user-images.githubusercontent.com/44589560/153569483-b6020ad7-1ca4-45bf-8a0e-8503ee18b32f.png)
+![image](https://user-images.githubusercontent.com/44589560/153571328-2421c930-5818-42ab-ad6e-d98220bcde64.png)
 
 | Enhed          | Specifikation                                             |
 |----------------|-----------------------------------------------------------|
