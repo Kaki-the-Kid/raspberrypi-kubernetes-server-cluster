@@ -320,6 +320,12 @@ systemctl start rancherd-server.service
 ```
 og det kan godt tage et stykke tid for at færdiggøre opsætningen af service
 
+Når alt er opsat, kan du gå ind på Rancher, det kan godt være at du skal sætte specielle tilladelser i den browser:
+https://localhost:8443/login
+
+![image](https://user-images.githubusercontent.com/44589560/154015782-37c41c8c-4d4b-4768-867e-894522f13d6e.png)
+
+
 # Konklusion
 [TODO]
 Jeg fik lavet en opstilling med de mange pi. Jeg fik 
