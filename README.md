@@ -260,10 +260,7 @@ Use "kubectl options" for a list of global command-line options (applies to all 
 ```
 
 # Installere Rancher på ekstern enhed
-Jeg valgte at lave en installering på min windows computer fra Windows Store
-![image](https://user-images.githubusercontent.com/44589560/153178640-71ef2599-2138-48e6-9e47-7dafe34cab74.png)
-
-![image](https://user-images.githubusercontent.com/44589560/153179020-f0c2e13a-9925-4e4a-abfb-8951feec778a.png)
+Jeg prøvede at installere på WSL Ubuntu18.04, men det version bruger åbenbart ikke systemd til at køre services. Jeg valgte, at benytte en selvstændigt klient maskine som fik installeret 18.04 versionen af Ubuntu.
 
 som root laver vi først en configurations fil i YAML:
 ```
@@ -317,29 +314,11 @@ hvorefter du gerne skulle kunne se at der bliver oprette et symlink
 ```
 Created symlink /etc/systemd/system/multi-user.target.wants/rancherd-server.service → /usr/local/lib/systemd/system/rancherd-server.service.
 ```
-
-# Rancher
-Jeg prøvede at installere på WSL Ubuntu18.04, men det version bruger åbenbart ikke systemd til at køre services. Jeg valgte, at benytte en selvstændigt klient maskine som fik installeret 18.04 versionen af Ubuntu.
-
-Følgende kommandoer er som root 
-
-Der skal først laves et par mapper til konfigurationen af Rancher
+start service på maskine med
 ```
-mkdir /etc/rancher
-mkdir /etc/rancher/rke2
-
-cd /etc/rancher/rke2
-nano config.yaml
-```
-i config.yaml, skrives
-```
-token: mylittlesecret # some given arbitrary secret word
-tls-san:
-  - 192.168.0.112     # current IP for the machine running Rancher
-```
-
-
 systemctl start rancherd-server.service
+```
+og det kan godt tage et stykke tid for at færdiggøre opsætningen af service
 
 # Konklusion
 [TODO]
