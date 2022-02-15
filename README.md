@@ -337,6 +337,14 @@ I mit tilfælde benytter jeg det tildelte forslag: 8HuBETxdxq963bm
 
 ![image](https://user-images.githubusercontent.com/44589560/154018526-1fc09be9-e6e2-416c-b546-23c2fcf643a0.png)
 
+Du kan her se den Kubernetes cluster som er blevet oprettet i forbindelse med Rancher installeringen.
+
+Så nu kan vi tilføje den eksisterende Raspberry Pi cluster:
+
+Klik på knappen ![image](https://user-images.githubusercontent.com/44589560/154019298-4fcfe3ca-8560-4c16-bbfe-a22b09865f15.png)
+
+
+
 
 # Konklusion
 [TODO]
