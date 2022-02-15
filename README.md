@@ -319,10 +319,27 @@ Created symlink /etc/systemd/system/multi-user.target.wants/rancherd-server.serv
 ```
 
 # Rancher
-Jeg prøvede at installere på WSL Ubuntu18.04, men det version bruger åbenbart ikke systemd til at køre services. Jeg valgte, at benytte en selvstændigt klient maskine som fik installerete 18.04 versionen af Ubuntu.
+Jeg prøvede at installere på WSL Ubuntu18.04, men det version bruger åbenbart ikke systemd til at køre services. Jeg valgte, at benytte en selvstændigt klient maskine som fik installeret 18.04 versionen af Ubuntu.
+
+Følgende kommandoer er som root 
+
+Der skal først laves et par mapper til konfigurationen af Rancher
+```
+mkdir /etc/rancher
+mkdir /etc/rancher/rke2
+
+cd /etc/rancher/rke2
+nano config.yaml
+```
+i config.yaml, skrives
+```
+token: mylittlesecret # some given arbitrary secret word
+tls-san:
+  - 192.168.0.112     # current IP for the machine running Rancher
+```
 
 
-
+systemctl start rancherd-server.service
 
 # Konklusion
 [TODO]
