@@ -341,7 +341,7 @@ Du kan her se den Kubernetes cluster som er blevet oprettet i forbindelse med Ra
 
 Så nu kan vi tilføje den eksisterende Raspberry Pi cluster:
 
-Klik på knappen ![image](https://user-images.githubusercontent.com/44589560/154019298-4fcfe3ca-8560-4c16-bbfe-a22b09865f15.png)
+|Klik på knappen ![image](https://user-images.githubusercontent.com/44589560/154019298-4fcfe3ca-8560-4c16-bbfe-a22b09865f15.png)|
 
 
 
