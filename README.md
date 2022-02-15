@@ -351,6 +351,20 @@ Så nu kan vi tilføje den eksisterende Raspberry Pi cluster:
 
 ![image](https://user-images.githubusercontent.com/44589560/154020923-d0b1bd63-5831-480e-8eb0-c72eebe96313.png)
 
+![image](https://user-images.githubusercontent.com/44589560/154022921-30cb6e20-11ed-4801-ad31-6fb5e2bb456c.png)
+ og vælg Operation -> Edit 
+ 
+ ![image](https://user-images.githubusercontent.com/44589560/154023294-c1eac430-5085-47e1-bbdf-646c7e2200b7.png)
+
+```
+# Docker container fra: 
+# https://hub.docker.com/layers/rancher/rancher/v2.5.8-rc12-linux-arm64/images/sha256-ef3e4b2abc534425ca76c72a2140a87a5a887265d89b92a65b0e74b1e3286fdd?context=explore 
+
+rancher/rancher:v2.5.8-rc12-linux-arm64
+```
+... scroll ned til bunden -> Show Request -> scroll ned til bunden -> Send Request <- 200 OK response -> Close -> Browser close window -> tilbage til Rancher webside
+
+
 
 
 # Konklusion
