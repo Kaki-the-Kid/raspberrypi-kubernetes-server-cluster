@@ -319,6 +319,9 @@ Created symlink /etc/systemd/system/multi-user.target.wants/rancherd-server.serv
 ```
 
 # Rancher
+Jeg prøvede at installere på WSL Ubuntu18.04, men det version bruger åbenbart ikke systemd til at køre services. Jeg valgte, at benytte en selvstændigt klient maskine som fik installerete 18.04 versionen af Ubuntu.
+
+
 
 
 # Konklusion
