@@ -51,7 +51,11 @@ Vi har arbejdet med Docker og Kubernetes, men ikke rigtig haft et rig op at kør
 * strømforbrug forudsætter at der ikke er tilsluttet enheder til usb portene.
 
 ## Raspberry Pi OS
-Raspberry Pi 3 er hardwaremæssigt istand (cpu) til at køre 64bit, men Raspberry Pi har aldrig udgivet en firmware opdateringt til udnyttelse af det. Derfor skal der gøres ekstra for at få Raspberry Pi 3 til at køre 64bit. Jeg sætter det udenfor scope i denne opgave, men det kunne være interessant og undersøge mulighede for at skifte over til 64bit og om det giver en faktisk hastighedsforøgelse.
+Raspberry Pi 3 er hardwaremæssigt istand (cpu) til at køre 64bit, men Raspberry Pi har aldrig udgivet en firmware opdateringt til udnyttelse af det. Derfor skal der gøres ekstra for at få Raspberry Pi 3 til at køre 64bit. Jeg sætter det udenfor scope i denne opgave, men det kunne være interessant og undersøge mulighede for at skifte over til 64bit og om det giver en faktisk hastighedsforøgelse og/eller kørsel af bedre optimerede styresystemer.
+
+Jeg har installeret den fulde version af Raspbarian OS på Raspberry inkl. RealVNC server og booter den ind i Desktop mode. Alle RasPi2 er headless med Raspberry Pi OS Lite (32-bit).
+
+Uden for scope i denne opgave: i Imager v1.4 er der mulighed fopr at installere Ubuntu Server 20.04.3 LTS 64-bit server.
 
 ## Klientmaskine specs
 HP Compaq 8200 Elite SFF PC
