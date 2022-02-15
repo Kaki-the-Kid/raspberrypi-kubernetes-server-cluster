@@ -323,7 +323,19 @@ og det kan godt tage et stykke tid for at færdiggøre opsætningen af service
 Når alt er opsat, kan du gå ind på Rancher, det kan godt være at du skal sætte specielle tilladelser i den browser:
 https://localhost:8443/login
 
-![image](https://user-images.githubusercontent.com/44589560/154015782-37c41c8c-4d4b-4768-867e-894522f13d6e.png)
+før du går ind skal du lige nulstille dit password
+```
+rancherd reset-admin
+```
+![image](https://user-images.githubusercontent.com/44589560/154017803-2d87f773-4104-4430-a287-7e34798c33e9.png)
+
+og bruger det token som du har fået tildelt
+
+![image](https://user-images.githubusercontent.com/44589560/154018089-cc9f302a-4aff-4efb-985f-0d8b9617215d.png)
+
+I mit tilfælde benytter jeg det tildelte forslag: 8HuBETxdxq963bm
+
+![image](https://user-images.githubusercontent.com/44589560/154018526-1fc09be9-e6e2-416c-b546-23c2fcf643a0.png)
 
 
 # Konklusion
