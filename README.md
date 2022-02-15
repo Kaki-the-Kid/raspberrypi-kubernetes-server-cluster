@@ -282,7 +282,7 @@ curl -sfL https://get.rancher.io | sh -
 ```
 du kan kontrollere at software er installefret korrekt med:
 ```
-rangerd
+rancherd
 ```
 som gerne skulle svare noget al la:
 ```
