@@ -49,6 +49,10 @@ Vi har arbejdet med Docker og Kubernetes, men ikke rigtig haft et rig op at kør
 | Vægt           | 45 g                                                      |
 
 * strømforbrug forudsætter at der ikke er tilsluttet enheder til usb portene.
+
+## Raspberry Pi OS
+Raspberry Pi 3 er hardwaremæssigt istand (cpu) til at køre 64bit, men Raspberry Pi har aldrig udgivet en firmware opdateringt til udnyttelse af det. Derfor skal der gøres ekstra for at få Raspberry Pi 3 til at køre 64bit. Jeg sætter det udenfor scope i denne opgave, men det kunne være interessant og undersøge mulighede for at skifte over til 64bit og om det giver en faktisk hastighedsforøgelse.
+
 ## Klientmaskine specs
 HP Compaq 8200 Elite SFF PC
 * ID: AC100-6
@@ -311,6 +315,20 @@ Created symlink /etc/systemd/system/multi-user.target.wants/rancherd-server.serv
 ```
 
 # Rancher
+
+
+# Konklusion
+[TODO]
+Jeg fik lavet en opstilling med de mange pi. Jeg fik 
+
+Det skal henføres at RaspBerry Pi 3 ikke var monteret med nogen form for køling. Den ny RaspBerry Pi 4 er monteret med passiv køling.
+
+Installationen af Rancher ...
+
+Samlet vurdering af projektet
+
+Relevans, råd og vejledning til andre som skal lave projektet ...
+
 
 ## Inspiration
 NetworkChuck - i built a Raspberry Pi SUPER COMPUTER!! // ft. Kubernetes (k3s cluster w/ Rancher)<br/>
