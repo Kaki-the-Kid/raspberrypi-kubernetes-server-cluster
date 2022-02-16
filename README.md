@@ -268,9 +268,9 @@ mkdir /etc/rancher
 mkdir /etc/rancher/rke2
 
 cd /etc/rancher/rke2
-nano config.yml
+nano config.yaml
 ```
-i config.yml
+i config.yaml
 ```
 token: sharedsecret
 tls-san:
