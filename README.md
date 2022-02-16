@@ -280,6 +280,25 @@ for at installere selv Rancher
 ```
 curl -sfL https://get.rancher.io | sh -
 ```
+nu henter den filen: rancherd-amd64.tar.gz
+```
+.
+├── bin
+│   ├── rancherd
+│   ├── rancherd-killall.sh
+│   └── rancherd-uninstall.sh
+├── lib
+│   └── systemd
+│       └── system
+│           ├── rancherd-agent.env
+│           ├── rancherd-agent.service
+│           ├── rancherd-server.env
+│           └── rancherd-server.service
+└── share
+    └── rancherd
+        └── rke2-cis-sysctl.conf
+```
+
 du kan kontrollere at software er installefret korrekt med:
 ```
 rancherd
