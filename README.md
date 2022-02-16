@@ -321,7 +321,7 @@ systemctl start rancherd-server.service
 og det kan godt tage et stykke tid for at færdiggøre opsætningen af service
 
 Når alt er opsat, kan du gå ind på Rancher, det kan godt være at du skal sætte specielle tilladelser i den browser:
-https://localhost:8443/login
+https://localhost:8443
 
 før du går ind skal du lige nulstille dit password
 ```
