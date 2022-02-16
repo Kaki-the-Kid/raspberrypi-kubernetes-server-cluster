@@ -350,6 +350,13 @@ rancherd reset-admin
 
 og bruger det token som du har fået tildelt
 
+I mit tilfælde:
+```
+root@RancherKubernetesCluster:/lib/systemd/system# rancherd reset-admin
+INFO[0005] Server URL: https://192.168.0.110:8443       
+INFO[0005] Default admin and password created. Username: admin, Password: k45gs5pg2q4rtrwxhrffw8pl7ktxmmjsjgzfs7pmhwqww5vfrqmm8f 
+```
+
 ![image](https://user-images.githubusercontent.com/44589560/154018089-cc9f302a-4aff-4efb-985f-0d8b9617215d.png)
 
 I mit tilfælde benytter jeg det tildelte forslag: 8HuBETxdxq963bm
