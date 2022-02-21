@@ -93,7 +93,6 @@ HP Compaq 8200 Elite SFF PC
 # Kubernetes
 ![image](https://user-images.githubusercontent.com/44589560/153147981-0abfa0fb-0758-4835-8e64-26bdcfec2fb1.png)
 
-
 ![image](https://user-images.githubusercontent.com/44589560/153149074-4624903a-6965-4a79-b330-2fb4d62510b0.png)
 
 ## Installere legacy iptables
@@ -260,7 +259,7 @@ Use "kubectl options" for a list of global command-line options (applies to all 
 ```
 
 # Installere Rancher på ekstern enhed
-Jeg prøvede at installere på WSL Ubuntu18.04, men det version bruger åbenbart ikke systemd til at køre services. Jeg valgte, at benytte en selvstændigt klient maskine som fik installeret 18.04 versionen af Ubuntu.
+Jeg prøvede at installere på Windows WSL version af Ubuntu18.04, men det version bruger åbenbart ikke systemd til at køre services. Jeg valgte, at benytte en selvstændigt klient maskine som fik installeret 18.04 versionen af Ubuntu.
 
 som root laver vi først en configurations fil i YAML:
 ```
@@ -274,7 +273,7 @@ i config.yaml
 ```
 token: sharedsecret
 tls-san:
-    - 192.168.0.113
+    - 192.168.0.113 # Sæt din egen IP
 ```
 for at installere selv Rancher
 ```
