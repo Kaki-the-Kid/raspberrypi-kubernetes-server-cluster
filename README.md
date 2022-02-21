@@ -285,7 +285,7 @@ eller hvis du vil hente den seneste version
 curl -sfL https://get.rancher.io | sh -
 ```
 nu henter den filen: rancherd-amd64.tar.gz
-
+```
 .
 ├── bin
 │   ├── rancherd
