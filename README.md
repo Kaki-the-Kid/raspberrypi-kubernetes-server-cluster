@@ -276,15 +276,16 @@ tls-san:
     - 192.168.0.113 # Sæt din egen IP
 ```
 for at installere selv Rancher
-```
-curl -sfL https://get.rancher.io | sh -
-```
-nu henter den filen: rancherd-amd64.tar.gz
-```
 Du skal være opmærksom på at han bruger version 2.5.8 i NetworkChuck
 ```
 curl -sfL https://get.rancher.io | INSTALL_RANCHERD_VERSION="v2.5.8" sh -
 ```
+eller hvis du vil hente den seneste version
+```
+curl -sfL https://get.rancher.io | sh -
+```
+nu henter den filen: rancherd-amd64.tar.gz
+
 .
 ├── bin
 │   ├── rancherd
