@@ -281,6 +281,10 @@ curl -sfL https://get.rancher.io | sh -
 ```
 nu henter den filen: rancherd-amd64.tar.gz
 ```
+Du skal være opmærksom på at han bruger version 2.5.8 i NetworkChuck
+```
+curl -sfL https://get.rancher.io | INSTALL_RANCHERD_VERSION="v2.5.8" sh -
+```
 .
 ├── bin
 │   ├── rancherd
