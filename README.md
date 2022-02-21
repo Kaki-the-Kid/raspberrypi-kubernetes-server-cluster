@@ -303,11 +303,11 @@ nu henter den filen: rancherd-amd64.tar.gz
         └── rke2-cis-sysctl.conf
 ```
 
-du kan kontrollere at software er installefret korrekt med:
+du kan kontrollere at software er installeret korrekt med:
 ```
 rancherd
 ```
-som gerne skulle svare noget al la:
+som gerne skulle svare noget a la:
 ```
 NAME:
    rancherd - Rancher Kubernetes Engine 2
