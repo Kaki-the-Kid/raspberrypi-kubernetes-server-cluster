@@ -2,7 +2,7 @@
 Vi har arbejdet med Docker og Kubernetes, men ikke rigtig haft et rig op at køre. Så for at få en minimal platform prøves det om vi kan få brugt nogle af vores Raspberry Pi2 som ikke har wifi på en god måde. Der arbejdes med Kubernetes cluster i ren RasPi opstilling og der laves en PC med Rancher desktop til visuelt tilgang til Kurbernetes nodes.
 
 # Materiale liste:
-* 1 Raspberry Pi 3 B
+* 1 Raspberry Pi 3 B <i>senere ændret til Raspberry Pi 4</i>
 * 6 RaspBerry Pi 2
 * 1 Router TP-Link TL-WR840N
 * 2 Switch 8-port TRENDnet TE100-S88B-plus
