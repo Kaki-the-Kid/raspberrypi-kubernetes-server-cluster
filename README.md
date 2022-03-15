@@ -395,20 +395,18 @@ rancher/rancher:v2.5.8-rc12-linux-arm64
 ... scroll ned til bunden -> Show Request -> scroll ned til bunden -> Send Request <- 200 OK response -> Close -> Browser close window -> tilbage til Rancher webside
 
 
-
-
 # Konklusion
-[TODO]
-Jeg fik lavet en opstilling med de mange pi. Jeg fik 
+Det lykkedes at få installere den mindrre tunge version af Kubernetes på de enkelte RaspBerry Pi. Jeg havde først 
+baseret masteren i Kluster på en RaspBerry Pi 3, men den havde ikke kræfter nok til at køre og håndtere forbindelses data. 
+Den blev så varm at den begyndte at lukke ned for hastigheden. Jeg havde på daværende tidspunkt ikke adgang til køling for 3+, 
+så jeg valgte at køre det på en RaspBerry Pi 4 med passiv køling.
 
-Det skal henføres at RaspBerry Pi 3 ikke var monteret med nogen form for køling. Den ny RaspBerry Pi 4 er monteret med passiv køling.
+Jeg er ikke rigtigt kommet i dybden med Ranchers version af Kubernetes. Det kunne sagtend ligge i en selvstændig opgave, 
+hvor man mere reelt brugte systemet mere intensivt til relevante container opgaver. Jeg fik ikke rigtigt installeret så 
+mange programmer og/eller containere - jeg så det som at ligge uden for scope for dette projekt.
 
-Installationen af Rancher ...
-
-Samlet vurdering af projektet
-
-Relevans, råd og vejledning til andre som skal lave projektet ...
-
+Det var et spændende projekt, som gave god læring i Kubernetes, terminologierog metodikker. Kan varmt anbefales til andre som 
+vil prøve kræfter med Kubernetes.
 
 ## Inspiration
 NetworkChuck - i built a Raspberry Pi SUPER COMPUTER!! // ft. Kubernetes (k3s cluster w/ Rancher)<br/>
