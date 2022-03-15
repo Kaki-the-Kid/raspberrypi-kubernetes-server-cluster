@@ -359,6 +359,8 @@ I mit tilfælde benytter jeg det tildelte forslag: 8HuBETxdxq963bm
 Du kan her se den Kubernetes cluster som er blevet oprettet i forbindelse med Rancher installeringen.
 
 Så nu kan vi tilføje den eksisterende Raspberry Pi cluster:
+<i>Jeg har beholdt en fejl i det følgende som fint viser viser fejlmulighed, som kan være lidt svær at opdage hvis man bare kopierer over.
+Man skal ikke bruge localhost - men den faktisk IP ellers kan maskinerne jo ikke se hinanden.</i>
 
 ![image](https://user-images.githubusercontent.com/44589560/154019298-4fcfe3ca-8560-4c16-bbfe-a22b09865f15.png)
 
