@@ -266,6 +266,9 @@ tls-san:
 ```
 for at installere selv Rancher
 Du skal være opmærksom på at han bruger version 2.5.8 i NetworkChuck
+
+Du kan se den på Github: https://github.com/rancher/rancher/tree/release/v2.5.8
+
 ```
 curl -sfL https://get.rancher.io | INSTALL_RANCHERD_VERSION="v2.5.8" sh -
 ```
